@@ -13,6 +13,9 @@
 		D99BADBF2463025E00424507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99BADBD2463025E00424507 /* Main.storyboard */; };
 		D99BADC12463026000424507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99BADC02463026000424507 /* Assets.xcassets */; };
 		D99BADC42463026000424507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99BADC22463026000424507 /* LaunchScreen.storyboard */; };
+		D99BADCC24630AC900424507 /* AVLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99BADCB24630AC900424507 /* AVLogic.swift */; };
+		D99BADCE24630C4000424507 /* 7A49A023-7DC2-4C62-AD48-3D489FBAC598.mov in Resources */ = {isa = PBXBuildFile; fileRef = D99BADCD24630C4000424507 /* 7A49A023-7DC2-4C62-AD48-3D489FBAC598.mov */; };
+		D99BADD124630E2A00424507 /* IMG_7277.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D99BADD024630C9000424507 /* IMG_7277.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		D99BADC02463026000424507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D99BADC32463026000424507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D99BADC52463026000424507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D99BADCB24630AC900424507 /* AVLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLogic.swift; sourceTree = "<group>"; };
+		D99BADCD24630C4000424507 /* 7A49A023-7DC2-4C62-AD48-3D489FBAC598.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "7A49A023-7DC2-4C62-AD48-3D489FBAC598.mov"; sourceTree = "<group>"; };
+		D99BADD024630C9000424507 /* IMG_7277.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_7277.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				D99BADC02463026000424507 /* Assets.xcassets */,
 				D99BADC22463026000424507 /* LaunchScreen.storyboard */,
 				D99BADC52463026000424507 /* Info.plist */,
+				D99BADCB24630AC900424507 /* AVLogic.swift */,
+				D99BADCD24630C4000424507 /* 7A49A023-7DC2-4C62-AD48-3D489FBAC598.mov */,
+				D99BADD024630C9000424507 /* IMG_7277.mp4 */,
 			);
 			path = "VideoOverlay-PoC";
 			sourceTree = "<group>";
@@ -125,7 +134,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D99BADD124630E2A00424507 /* IMG_7277.mp4 in Resources */,
 				D99BADC42463026000424507 /* LaunchScreen.storyboard in Resources */,
+				D99BADCE24630C4000424507 /* 7A49A023-7DC2-4C62-AD48-3D489FBAC598.mov in Resources */,
 				D99BADC12463026000424507 /* Assets.xcassets in Resources */,
 				D99BADBF2463025E00424507 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D99BADBC2463025E00424507 /* ViewController.swift in Sources */,
+				D99BADCC24630AC900424507 /* AVLogic.swift in Sources */,
 				D99BADB82463025E00424507 /* AppDelegate.swift in Sources */,
 				D99BADBA2463025E00424507 /* SceneDelegate.swift in Sources */,
 			);
